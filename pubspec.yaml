@@ -1,0 +1,56 @@
+name: scorehunt
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  gap: ^3.0.1
+  iconsax: ^0.0.8
+  action_slider: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/intro/play_store_512.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/avatar/
+    - assets/bg/
+    - assets/intro/
+    - assets/story/
+    - assets/trendings/
+    - assets/images/
+
+  fonts:
+    - family: poppins
+      fonts:
+        - asset: assets/Fonts/Poppins-Regular.ttf
+
+    - family: mons
+      fonts:
+        - asset: assets/Fonts/Montserrat-Regular.ttf
+
+    - family: manrope
+      fonts:
+        - asset: assets/Fonts/manrope-regular.otf
+
+    - family: rubik
+      fonts:
+        - asset: assets/Fonts/Rubik-Regular.ttf
+
